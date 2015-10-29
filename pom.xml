@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.developerworld.commons</groupId>
 		<artifactId>dw-commons-parent</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 	</parent>
 
 	<artifactId>dw-commons-dbsource</artifactId>
@@ -24,62 +24,46 @@
 		<dependency>
 			<groupId>org.developerworld.commons</groupId>
 			<artifactId>dw-commons-servlet</artifactId>
-			<version>0.0.1</version>
-			<scope>provided</scope>
+			<version>0.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
-			<version>2.6</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
-			<version>1.9.2</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
-			<version>1.8.7</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>proxool</groupId>
+			<groupId>org.developerworld.3rdparty.proxool</groupId>
 			<artifactId>proxool</artifactId>
 			<version>0.9.1</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/lib/proxool-0.9.1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>c3p0</groupId>
 			<artifactId>c3p0</artifactId>
-			<version>0.9.1.2</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
-			<version>1.4</version>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
-			<version>2.4</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.25</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
