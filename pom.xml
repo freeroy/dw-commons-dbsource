@@ -27,6 +27,11 @@
 			<version>0.0.2</version>
 		</dependency>
 		<dependency>
+			<groupId>org.developerworld.3rdparty.proxool</groupId>
+			<artifactId>proxool</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
 		</dependency>
@@ -37,11 +42,6 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.developerworld.3rdparty.proxool</groupId>
-			<artifactId>proxool</artifactId>
-			<version>0.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>c3p0</groupId>
