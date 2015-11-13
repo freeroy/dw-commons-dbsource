@@ -11,7 +11,7 @@
 	<artifactId>dw-commons-dbsource</artifactId>
 	<packaging>jar</packaging>
 	<name>dw-commons-dbsource</name>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<description>数据源工具包</description>
 
 	<!-- scm配置 -->
